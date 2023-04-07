@@ -7,7 +7,7 @@ public class variables2 {
 		int b ;
 		char c ;
 		
-		a="Amin @ Shaikh" ;//changes done
+		a="Amin @ Shaikh" ;//changes done at github
 		b=2499 ;
 		c='@' ;
 		
