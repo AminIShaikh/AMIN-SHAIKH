@@ -10,7 +10,7 @@ public class variables1 {
 		String c;
 		
 		//variable initialization
-		a ="AMIN SHAIKH" ;  ///CHANGES DONE
+		a ="AMIN  IMTIYAJ SHAIKH" ;  ///CHANGES DONE BY THE MANAGER
 		b ="@" ;
 		c ="Amin @ 2499" ;
 		

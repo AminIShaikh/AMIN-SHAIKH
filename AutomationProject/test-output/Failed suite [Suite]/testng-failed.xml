@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="FirefoxTest(failed)(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Test.ValidationClass">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="To_verify_the_ProgressPage"/>
+          <include name="To_verify_the_TeacherPage"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- Test.ValidationClass -->
+    </classes>
+  </test> <!-- FirefoxTest(failed)(failed) -->
+  <test thread-count="5" parallel="classes" name="EdgeTest(failed)(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Test.ValidationClass">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="To_verify_the_ProgressPage"/>
+          <include name="To_verify_the_TeacherPage"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- Test.ValidationClass -->
+    </classes>
+  </test> <!-- EdgeTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
