@@ -56,7 +56,7 @@ public class ValidationClass extends OpenBrowser{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		driver.get("https://www.khanacademy.org/");
 		driver.manage().window().maximize();
-		
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		
 	}
 	
