@@ -43,5 +43,30 @@ public class Utility {
 		return data;
 		
 	}
+	
 
+    public static String getDataFromExcel(String sheetName, int row, int cell) throws EncryptedDocumentException, IOException {
+		String data = "no Data" ;
+		FileInputStream file = new FileInputStream("C:Users\\Hp\\OneDrive\\Desktop\\Book1.xlsx");
+		
+		Cell getCell = WorkbookFactory.create(file).getSheet(sheetName).getRow(row).getCell(cell);
+		
+		try {
+			data = getCell.getStringCellValue();
+		}
+		catch(IllegalStateException e)
+		{
+			double value = getCell.getNumericCellValue();
+			data = String.valueOf(value);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+		System.out.println(data);
+		return data;
+	}
 }
+
+
