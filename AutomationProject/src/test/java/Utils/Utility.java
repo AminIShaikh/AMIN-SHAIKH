@@ -30,20 +30,6 @@ public class Utility {
 		FileHandler.copy(source, dest);
 	}
 	
-	public static String getDatafromExcelSheet(String sheet,int row,int cell) throws EncryptedDocumentException, IOException {
-		
-		FileInputStream file = new FileInputStream("C:Users\\Hp\\OneDrive\\Desktop\\Book2.xlsx");
-		
-		Sheet sh = WorkbookFactory.create(file).getSheet("Sheet1");
-		
-		Cell ct = sh.getRow(row).getCell(cell);
-		
-		String data = ct.getStringCellValue();
-		
-		return data;
-		
-	}
-	
 
     public static String getDataFromExcel(String sheetName, int row, int cell) throws EncryptedDocumentException, IOException {
 		String data = "no Data" ;
