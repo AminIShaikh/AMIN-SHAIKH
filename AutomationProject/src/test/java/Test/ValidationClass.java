@@ -16,6 +16,10 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import Base.OpenBrowser;
 import Education.LogOut;
 import Education.Login;
@@ -30,15 +34,20 @@ public class ValidationClass extends OpenBrowser{
 	LogOut logout;
 	Progress progress;
 	int testID;
+	static ExtentTest test;
+	static ExtentHtmlReporter reporter;
 	
 	
 	@Parameters("browser")
 	
-	
-	
 	@BeforeTest
 	public void openBrowser(String browsername) {
 		System.out.println(browsername);
+		
+		reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
+		ExtentReports extend = new ExtentReports();
+		extend.attachReporter(reporter);
+		
 		
 		if(browsername.equals("Chrome")) {
 			driver = OpenChromeBrowser();

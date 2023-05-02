@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
+  <listeners>
+		<listener class-name="extendReport.ExtentTestNGIReporterListener" />
+</listeners>
+
   <test thread-count="5" name="ChromeTest" parallel="classes">
   <parameter name="browser" value="Chrome"></parameter>
     <classes>
