@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-02T13:57:30 IST" name="Default suite" finished-at="2023-05-02T13:57:30 IST" duration-ms="144">
+  <suite started-at="2023-07-11T13:05:03 IST" name="Default suite" finished-at="2023-07-11T13:05:04 IST" duration-ms="160">
     <groups>
     </groups>
-    <test started-at="2023-05-02T13:57:30 IST" name="Default test" finished-at="2023-05-02T13:57:30 IST" duration-ms="144">
+    <test started-at="2023-07-11T13:05:03 IST" name="Default test" finished-at="2023-07-11T13:05:04 IST" duration-ms="160">
       <class name="Test.ValidationClass">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683016050223" status="FAIL">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:03 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689060903917" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-505302868\testng-customsuite.xml]]>
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-1981594119\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-505302868\testng-customsuite.xml
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-1981594119\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -45,25 +45,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="beforeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683016050287" status="SKIP">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:03 IST" name="beforeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689060903981" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="beforemethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683016050316" status="SKIP">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:04 IST" name="beforemethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689060904016" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="To_verify_the_ProgressPage()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="To_verify_the_ProgressPage" finished-at="2023-05-02T13:57:30 IST" duration-ms="0" status="SKIP">
+        <test-method signature="To_verify_the_ProgressPage()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:04 IST" name="To_verify_the_ProgressPage" finished-at="2023-07-11T13:05:04 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-505302868\testng-customsuite.xml]]>
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-1981594119\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-505302868\testng-customsuite.xml
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-1981594119\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -91,25 +91,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- To_verify_the_ProgressPage -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="aftermethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683016050330" status="SKIP">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:04 IST" name="aftermethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689060904031" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="beforemethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683016050335" status="SKIP">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:04 IST" name="beforemethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689060904035" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="To_verify_the_TeacherPage()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="To_verify_the_TeacherPage" finished-at="2023-05-02T13:57:30 IST" duration-ms="0" status="SKIP">
+        <test-method signature="To_verify_the_TeacherPage()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:04 IST" name="To_verify_the_TeacherPage" finished-at="2023-07-11T13:05:04 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-505302868\testng-customsuite.xml]]>
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-1981594119\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-505302868\testng-customsuite.xml
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse-1981594119\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -137,15 +137,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- To_verify_the_TeacherPage -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="aftermethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683016050343" status="SKIP">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:04 IST" name="aftermethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689060904046" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="afterclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683016050347" status="SKIP">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:04 IST" name="afterclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689060904049" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="aftertest()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-05-02T13:57:30 IST" name="aftertest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683016050352" status="SKIP">
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Test.ValidationClass@44ebcd03]" started-at="2023-07-11T13:05:04 IST" name="aftertest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689060904055" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
